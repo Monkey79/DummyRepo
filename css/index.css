@@ -1,0 +1,415 @@
+body 
+{
+    margin:0px;
+}
+
+.mainHeader {
+	height:70px;
+	background-color:#C84742;
+	color:blue;
+}
+
+.mainHeader .content{
+	width:930px;
+	margin:0 auto;
+	position: absolute;
+}
+
+.mainHeader .content .logo{
+	display:inline-block;
+	margin-top: 10px;
+}
+.mainHeader .content .menuIcon{
+	display: none;
+}
+.mainHeader .content .menu{
+	display:inline-block;
+	position: absolute;
+	top:26px;
+	right:20px;
+}
+@media(max-width:600px){
+	.mainHeader .content .menu{
+		display:none;
+	}
+	.mainHeader .content .menuIcon{
+		display: inline-block;
+		position: absolute;
+		top: 8px;
+		left: 58%;
+		margin-right: 5%;
+		/* right: 540px; */
+		
+	}
+}
+
+.mainHeader .content .menu .menuList{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+.mainHeader .content .menu .menuList .menuItem{
+	display:inline-block;
+}
+
+.mainHeader .content .menu .menuList .menuItem:not(:last-child){
+	margin-right: 20px;	
+}
+
+.mainHeader 
+.content 
+.menu 
+.menuList 
+.menuItem 
+.link{
+	text-decoration: none;
+	color:white;
+	font-family: 'Helvetica';
+	text-transform: uppercase;
+	font-size: 14px;
+}	
+
+.main .banner {
+	background-image:url(../images/slack-imgs.com.jpg);
+	height:400px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+	-webkit-filter:grayscale(100%); /*hasta que no se estandarice se be usar prefijos */
+	overflow:auto;
+}
+
+.main .banner .bannerList {
+	list-style: none;
+}
+
+.main .banner .bannerList  .bannerItem .bannerValue{
+	text-decoration: none;
+	font-family: 'Helvetica';
+	left:234px;
+	position:absolute;
+	font-size:20px;
+	color:white;
+}
+
+.main .bannnerNav{
+	position:absolute;
+	left:48%;
+	top:400px;
+}
+
+.intro .introTitle{
+	font-size:25px;
+	text-align:center;
+}
+
+.intro .introContent{
+	font-size:20px;
+	text-align:center;
+}
+
+/*--------Skills------*/
+.skills {
+	background-color: #E4E4E4;
+	text-align: center;
+}
+.skills .skillsTitle {
+	text-align: center;
+}
+.skills .skillsSubTitle {
+	text-align: center;
+}
+
+.skills .skillA {
+	width: 300px;
+	display: inline-block;
+	/* border: solid 1px black; */
+}
+.skills .skillA .skillAHeader {
+	padding-top: 10px;
+	background-color: #FFF;
+}
+.skills .skillA .skillAHeader .skillATitle{
+	/* border: solid 1px black; */
+}
+.skills .skillA .skillAContent{
+	background-color: #f0f0f0;
+	/* overflow:auto; */
+}
+
+.skills .skillB{
+	width: 300px;	
+	margin: 0 10px;
+	display: inline-block;
+	/* border: solid 1px black; */
+}
+.skills .skillB .skillBHeader {
+	padding-top: 10px;
+	background-color: #FFF;
+}
+.skills .skillB .skillBContent{
+	background-color: #f0f0f0;
+	/* overflow:auto; */
+}
+
+.skills .skillB .skillBHeader .skillBTitle{
+	/* border: solid 1px black; */
+}
+
+.skills .skillC{
+	width: 300px;	
+	display: inline-block;
+	/* border: solid 1px black; */
+}
+.skills .skillC .skillCHeader {
+	padding-top: 10px;
+	background-color: #FFF;
+}
+.skills .skillC .skillCHeader .skillCTitle{
+	/* border: solid 1px black; */
+}
+.skills .skillC .skillCContent{
+	background-color: #f0f0f0;
+	/* overflow:auto; */
+}
+
+/*--------Quote------*/
+.quote{
+	background-attachment:fixed;
+	background-image: url(../images/slack-imgs.com.jpg);
+	text-align: center;
+	background-size: cover;
+}
+
+.quote .quoteContent{
+	height: 150px;
+	margin: 50px 100px;
+	display: inline-block;
+}
+
+.quote .quoteContent .quoteMessage{
+	color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.quote .quoteContent .quoteAutor {
+	color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*--------Advanced Skills------*/
+.advancedSkills{
+	/* text-align: center; */
+}
+.advancedSkills .advSkillsTitle {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+}
+.advancedSkills .advSkillsContent{
+	 font-family: 'Source Sans Pro', sans-serif;
+	 text-align: center;
+}
+.advancedSkills .programmingSkill {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 12px;
+
+	display: block;
+	margin-left: 5%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+.advancedSkills .designningSkill {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 12px;
+
+	display: block;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*--------Professional Experience------*/
+.professionalExperience{
+	background-color: #E4E4E4;
+}
+.professionalExperience .proffExpTitle{
+	text-align: center;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.professionalExperience .proffExpCont{
+	text-align: center;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.professionalExperience .profExp1{
+	text-align: right;
+	border: 1px solid black;
+	display: inline-block;
+	background-color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.professionalExperience .profExp1 .profExp1Title{
+	color: green;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+	
+}
+.professionalExperience .profExp1 .profExp1Cont{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+	
+}
+.professionalExperience .profExp2{
+	border: 1px solid black;	
+	display: inline-block;
+	background-color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.professionalExperience .profExp2 .profExp2Title{
+	color: red;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+	
+}
+.professionalExperience .profExp2 .profExp2Cont{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;	
+}
+.professionalExperience .profExp3{
+	text-align: right;
+	border: 1px solid black;
+	background-color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-left: 50%;
+}
+.professionalExperience .profExp3 .profExp3Title{
+	color: green;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;	
+}
+.professionalExperience .profExp3 .profExp3Cont{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;	
+}
+.professionalExperience .profExp4{
+	border: 1px solid black;	
+	background-color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-right: 50%;
+}
+.professionalExperience .profExp4 .profExp4Title{
+	color: red;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;	
+}
+.professionalExperience .profExp4 .profExp4Cont{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;	
+}
+.professionalExperience .profExp5{
+	border: 1px solid black;	
+	background-color: white;
+	text-align: right;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: white;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-left: 50%;
+}
+.professionalExperience .profExp5 .profExp5Title{	
+	color: green;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;	
+}
+.professionalExperience .profExp5 .profExp5Cont{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;	
+}
+.professionalExperience .profExp6{
+	border: 1px solid black;	
+	background-color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-right: 50%;
+}
+.professionalExperience .profExp6 .profExp6Title{
+	color:red;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;	
+}
+.professionalExperience .profExp6 .profExp6Cont{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;	
+}
+/*--------Portfolio------*/
+.portfolio .portfolioMenu {
+	color: #CC4646;
+	display:inline-block;
+	margin-left: 40%;	
+}
+.portfolio .portfolioMenuList{
+	list-style: none;
+}
+.portfolio .portfolioMenuList .portfolioMenuItem{
+	display:inline-block;	
+}
+.portfolio .portfolioMenuList .portfolioMenuItem:not(:last-child){
+	margin-right: 20px;	
+}
+
+.portfolio {
+	background-color: rgb(24, 24, 24);
+	width: 100%;
+	height: auto;
+}
+.portfolio .portfolioTitle{
+	color: #CC4646;
+	font-size: 30px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.portfolio .portfolioContent{
+	color: #858585;
+	font-size: 20px;
+	margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}

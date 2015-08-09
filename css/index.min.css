@@ -1,0 +1,17 @@
+body{margin:0px;}
+.mainHeader{height:70px;background-color:#C84742;color:blue;}
+.mainHeader .content{width:930px;margin:0 auto;position:relative;}
+.mainHeader .content .logo{display:inline-block;margin-top:10px;}
+.mainHeader .content .menu{display:inline-block;position:absolute;top:26px;right:20px;}
+@media(max-width){}
+.mainHeader .content .menu .menuList{padding:0;margin:0;list-style:none;}
+.mainHeader .content .menu .menuList .menuItem{display:inline-block;}
+.mainHeader .content .menu .menuList .menuItem:not(:last-child){margin-right:20px;}
+.mainHeader .content .menu .menuList .menuItem .link{text-decoration:none;color:white;font-family:'Helvetica';text-transform:uppercase;font-size:14px;}
+.main .banner{background-image:url(../images/slack-imgs.com.jpg);height:400px;background-size:cover;background-repeat:no-repeat;background-position:center center;-webkit-filter:grayscale(100%);overflow:auto;}
+.main .banner .bannerList{list-style:none;}
+.main .banner .bannerList .bannerItem .bannerValue{text-decoration:none;font-family:'Helvetica';left:234px;position:absolute;font-size:20px;color:white;}
+.main .bannnerNav{position:absolute;left:500px;top:400px;}
+.intro .introTitle{font-size:25px;text-align:center;}
+.intro .introContent{font-size:20px;text-align:center;}
+
